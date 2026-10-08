@@ -14,7 +14,7 @@ export.ps1
 idf.py flash
 
 To Use (do every time) (from top level folder):
-Power on ESP32
+Power on ESP32, connect 3.3V to positive rail, GND to negative rail, VN is the pin used for ADC
 connect to access point ESP32_ADC.
 run udp_reader.py
 press r to record, e to end recording.
