@@ -7,12 +7,14 @@ env_det_demo (envelope detector demo) contains the ESP32 project, made using ESP
 HOW TO USE
 ---------------------------------
 *Note: this is how to build and use with esp-idf, using Arduino ide may be different.
+You will need to download esp idf in order to build
 
-Run:
+To Flash (do once) from env_det_demo Run:
 export.ps1
 idf.py flash
 
-On Laptop:
+To Use (do every time) (from top level folder):
+Power on ESP32
 connect to access point ESP32_ADC.
 run udp_reader.py
 press r to record, e to end recording.
